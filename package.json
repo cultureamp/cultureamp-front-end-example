@@ -1,0 +1,19 @@
+{
+  "name": "front-end-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/cultureamp/front-end-example.git",
+  "author": "FECT",
+  "license": "MIT",
+  "scripts": {
+    "start": "cultureamp-front-end-scripts-start",
+    "test": "cultureamp-front-end-scripts-test",
+    "build": "cultureamp-front-end-scripts-build",
+    "lint": "cultureamp-front-end-scripts-lint",
+    "flow": "cultureamp-front-end-scripts-flow"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "cultureamp-front-end-scripts": "https://github.com/cultureamp/cultureamp-front-end-scripts.git"
+  }
+}

@@ -1440,8 +1440,9 @@ crypto-browserify@^3.11.0:
 
 "cultureamp-front-end-scripts@https://github.com/cultureamp/cultureamp-front-end-scripts.git":
   version "0.0.1"
-  resolved "https://github.com/cultureamp/cultureamp-front-end-scripts.git#93d802aa6c202d800c7c188300593160f6e7b58c"
+  resolved "https://github.com/cultureamp/cultureamp-front-end-scripts.git#9b4db4fa010b034463dbc74acc5f9b210fb0288e"
   dependencies:
+    flow-bin "^0.66.0"
     webpack "^4.0.0"
     webpack-cli "^2.0.9"
     webpack-dev-server "^3.0.0"
@@ -2044,6 +2045,10 @@ first-chunk-stream@^2.0.0:
   resolved "https://registry.yarnpkg.com/first-chunk-stream/-/first-chunk-stream-2.0.0.tgz#1bdecdb8e083c0664b91945581577a43a9f31d70"
   dependencies:
     readable-stream "^2.0.2"
+
+flow-bin@^0.66.0:
+  version "0.66.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.66.0.tgz#a96dde7015dc3343fd552a7b4963c02be705ca26"
 
 flow-parser@^0.*:
   version "0.66.0"

@@ -10,7 +10,8 @@
     "test": "cultureamp-front-end-scripts-test",
     "build": "cultureamp-front-end-scripts-build",
     "lint": "cultureamp-front-end-scripts-lint",
-    "flow": "cultureamp-front-end-scripts-flow"
+    "flow": "cultureamp-front-end-scripts-flow",
+    "format": "cultureamp-front-end-scripts-format"
   },
   "devDependencies": {},
   "dependencies": {

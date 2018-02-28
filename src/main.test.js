@@ -1,3 +1,5 @@
+import main from './main.js';
+
 test('buddies', () => {
-  expect(true).toBe(true);
+  expect(main).toBe('hey buddies');
 });

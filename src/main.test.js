@@ -1,5 +1,5 @@
 import main from './main.js';
 
 test('buddies', () => {
-  expect(main).toBe('hey buddies');
+  expect(main).toBe('hey buddies, my style is blah');
 });

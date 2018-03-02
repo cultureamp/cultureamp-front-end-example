@@ -15,6 +15,6 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "cultureamp-front-end-scripts": "https://github.com/cultureamp/cultureamp-front-end-scripts.git"
+    "cultureamp-front-end-scripts": "^0.0.1"
   }
 }

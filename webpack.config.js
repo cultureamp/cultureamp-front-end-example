@@ -5,7 +5,7 @@ const webpackMaker = new WebpackMaker();
 webpackMaker.registerPreset(name, fn);
 webpackMaker.registerLoader(name, opts);
 webpackMaker.addRule(opts);
-webpackMaker.use([preset, preset2]);
+webpackMaker.usePreset([preset, preset2]);
 webpackMaker.modifyLoader(name, opts);
 
 webpackMaker.registerLoader('reason', {
@@ -30,8 +30,13 @@ const caReasonPreset = wm => {
   });
 };
 
-const standardPack = ['babel-react', 'elm', 'sass-modules', 'svg-icons'];
+const standardPack = [
+  babelReactPreset,
+  elmPreset,
+  sassModulesPreset,
+  svgIconsPreset,
+];
 
-webpackMaker.use([...standardPack, caReasonPreset]);
+webpackMaker.usePresets([...standardPack, caReasonPreset]);
 
 module.exports = webpackMaker.generateWebpackConfig();

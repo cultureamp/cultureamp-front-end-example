@@ -1,3 +1,6 @@
-.blah {
-  display: none;
+.header {
+  font-family: Ideal Sans A, Ideal Sans B, Helvetica, Arial, sans-serif;
+  &:hover {
+    color: pink;
+  }
 }

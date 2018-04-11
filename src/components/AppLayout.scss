@@ -1,0 +1,18 @@
+@import "~cultureamp-style-guide/styles/type";
+@import "~cultureamp-style-guide/styles/border";
+@import "~cultureamp-style-guide/styles/color";
+
+body {
+  margin: 0;
+}
+
+.footer {
+  @include ca-type-ideal-small;
+  @include ca-inherit-baseline;
+  text-align: center;
+}
+.cultureAmpMenu {
+  background-color: #ffffff;
+  color: add-tint($ca-palette-coral, 50%);
+  border-radius: $ca-border-radius;
+}

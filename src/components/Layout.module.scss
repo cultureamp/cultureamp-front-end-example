@@ -1,0 +1,41 @@
+@import "~cultureamp-style-guide/components/Layout/styles";
+
+.root {
+  @extend %root;
+}
+
+.navigationBar {
+  @extend %navigation-bar;
+  box-sizing: border-box;
+  width: 60px;
+}
+
+.page {
+  @extend %page;
+  box-sizing: border-box;
+}
+
+.header {
+  @extend %header;
+  box-sizing: border-box;
+}
+
+.body {
+  @extend %body;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  @extend %sidebar;
+  box-sizing: border-box;
+}
+
+.content {
+  @extend %content;
+  box-sizing: border-box;
+}
+
+.footer {
+  @extend %footer;
+  box-sizing: border-box;
+}

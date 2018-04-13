@@ -23,7 +23,9 @@ whenReady(() => {
         This is your repo. You can add React stuff in here, maybe even Elm
         stuff!
       </p>
-      <Layout.Sidebar>We can even do a sidebar.</Layout.Sidebar>
+      <Layout.Sidebar>
+        <div className={styles.sidebar}>We can even do a sidebar.</div>
+      </Layout.Sidebar>
     </AppLayout>,
     document.getElementById("app-container")
   );

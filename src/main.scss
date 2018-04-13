@@ -8,3 +8,7 @@
 .paragraph {
   @include ca-type-ideal-lede;
 }
+
+.sidebar {
+  @include ca-type-ideal-body;
+}

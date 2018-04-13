@@ -16,6 +16,10 @@ function whenReady(cb) {
 }
 
 whenReady(() => {
+  const container = document.getElementById('app-container');
+  if (!container) {
+    throw 'Could not find an element with ID app-container';
+  }
   ReactDOM.render(
     <AppLayout>
       <h1 className={styles.header}>Hello</h1>
@@ -27,6 +31,6 @@ whenReady(() => {
         <div className={styles.sidebar}>We can even do a sidebar.</div>
       </Layout.Sidebar>
     </AppLayout>,
-    document.getElementById('app-container')
+    container
   );
 });

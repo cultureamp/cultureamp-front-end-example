@@ -23,7 +23,6 @@ class AppLayout extends React.Component<AppLayoutProps> {
         />
         <NavigationBar.Menu
           tooltip="Culture Amp"
-          header={null}
           items={[
             {
               label: 'About Culture Amp',

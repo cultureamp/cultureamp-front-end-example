@@ -2,7 +2,7 @@
 import * as React from "react";
 import ReactDOM from "react-dom";
 import AppLayout from "components/AppLayout";
-import Layout from "components/Layout";
+import Layout from "cultureamp-style-guide/components/Layout";
 import styles from "./main.scss";
 
 function whenReady(cb) {

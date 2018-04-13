@@ -1,14 +1,14 @@
 // @flow
-import * as React from "react";
-import Layout from "cultureamp-style-guide/components/Layout";
-import NavigationBar from "cultureamp-style-guide/components/NavigationBar";
-import Icon from "cultureamp-style-guide/components/Icon";
-import homeIcon from "cultureamp-style-guide/icons/home.svg";
-import caIcon from "cultureamp-style-guide/icons/ca-monogram.svg";
-import styles from "./AppLayout.scss";
+import * as React from 'react';
+import Layout from 'cultureamp-style-guide/components/Layout';
+import NavigationBar from 'cultureamp-style-guide/components/NavigationBar';
+import Icon from 'cultureamp-style-guide/components/Icon';
+import homeIcon from 'cultureamp-style-guide/icons/home.svg';
+import caIcon from 'cultureamp-style-guide/icons/ca-monogram.svg';
+import styles from './AppLayout.scss';
 
 type AppLayoutProps = {
-  children: React.Node
+  children: React.Node,
 };
 
 class AppLayout extends React.Component<AppLayoutProps> {
@@ -26,9 +26,9 @@ class AppLayout extends React.Component<AppLayoutProps> {
           header={null}
           items={[
             {
-              label: "About Culture Amp",
-              link: "https://www.cultureamp.com/"
-            }
+              label: 'About Culture Amp',
+              link: 'https://www.cultureamp.com/',
+            },
           ]}
         >
           <div className={styles.cultureAmpMenu}>

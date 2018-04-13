@@ -18,7 +18,7 @@ function whenReady(cb) {
 whenReady(() => {
   const container = document.getElementById('app-container');
   if (!container) {
-    throw 'Could not find an element with ID app-container';
+    throw new Error('Could not find an element with ID app-container');
   }
   ReactDOM.render(
     <AppLayout>

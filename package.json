@@ -15,6 +15,6 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "cultureamp-front-end-scripts": "^0.1.0"
+    "cultureamp-front-end-scripts": "^0.2.1"
   }
 }

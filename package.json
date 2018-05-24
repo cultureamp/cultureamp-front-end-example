@@ -15,6 +15,13 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "cultureamp-front-end-scripts": "^0.2.1"
-  }
+    "cultureamp-front-end-scripts": "cultureamp/cultureamp-front-end-scripts"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/cultureamp-front-end-scripts/config/eslint/eslint.config.js"
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "public/assets"
+  ]
 }

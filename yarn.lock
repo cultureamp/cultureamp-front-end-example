@@ -2387,9 +2387,9 @@ cssom@0.3.x, "cssom@>= 0.3.2 < 0.4.0":
   dependencies:
     cssom "0.3.x"
 
-cultureamp-front-end-scripts@cultureamp/cultureamp-front-end-scripts:
-  version "0.2.4"
-  resolved "https://codeload.github.com/cultureamp/cultureamp-front-end-scripts/tar.gz/33fbe7dcca921fbafd493ba54e7434d996cd1a15"
+cultureamp-front-end-scripts@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/cultureamp-front-end-scripts/-/cultureamp-front-end-scripts-0.2.5.tgz#aebdb09043c2769df7bf382c92127bba1f5b6e32"
   dependencies:
     autoprefixer "^8.2.0"
     babel-core "^6.26.0"

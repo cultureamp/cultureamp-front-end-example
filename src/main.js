@@ -9,8 +9,10 @@ function whenReady(cb) {
   if (document.readyState === 'complete') {
     cb();
   } else {
-    document.addEventListener('DOMContentLoaded', () => {
-      cb();
+    document.addEventListener('readystatechange', () => {
+      if (document.readyState === 'complete') {
+        cb();
+      }
     });
   }
 }
